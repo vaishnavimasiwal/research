@@ -1,0 +1,431 @@
+.main {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("main.jpg");
+    padding-bottom: 20%;
+    height: 50%;
+    border: 0px solid black;
+}
+
+.logo {
+    margin-top: 1%;
+    padding-top: none;
+    margin-left: 1%;
+    float: top left;
+    height: 60px;
+}
+
+div {
+    border: 0px solid black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url("nav.png");
+}
+
+li {
+    width: 20%;
+    height: 5%;
+    float: left;
+    border: 0px solid #bbb;
+    font-family: "Myriad Pro";
+    text-decoration: bold;
+    font-size: 180%;
+}
+
+li a {
+    height: 100%;
+    display: block;
+    color: white;
+    text-align: center;
+    padding-top: 7%;
+    padding-bottom: 6%;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #17cff0;
+    color: black;
+    text-decoration: none;
+}
+
+.a active {
+    background-color: rgb(82, 196, 204);
+    text-decoration: none;
+}
+
+
+/*
+FONT FROM NET
+@font-face {
+    font-family: Lato-Bold;
+    src: url("fonts\Lato-Bold.eot")format("eot");
+    src: url("fonts\Lato-Bold.woff")format("woff");
+}
+*/
+
+.ht1 {
+    font-family: "aharoni";
+    margin-left: 33%;
+    font-weight: bold;
+    font-size: 450%;
+    margin-top: 20%;
+}
+
+.fir {
+    color: rgb(30, 30, 61);
+    text-align: center;
+    padding-bottom: 25%;
+    padding-top: 25%;
+    font-family: "arial";
+    font-size: 400%;
+}
+
+.firse {
+    margin-top: 20%;
+    font-size: 140%;
+}
+
+.ht3 {
+    font-family: "Letter Gothic Std";
+    margin-left: 45%;
+    color: white;
+    padding-bottom: 5%;
+    font-size: 250%;
+}
+
+.hr1 {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 29%;
+    margin-right: 15%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+}
+
+#logop {
+    text-align: left;
+    color: white;
+    margin-top: 20%;
+    font-size: 100%;
+}
+
+
+/*
+.hr2 {
+    display: block;
+    margin-top: 3%;
+    float: left;
+    border-style: solid;
+    border-width: 1px;
+    padding-right: 45%;
+    margin-right: 1%;
+    margin-left: 1%;
+    border-color: white;
+}
+
+#hr3 {
+    float: right;
+}
+*/
+
+.p1 {
+    padding-top: 25%;
+    padding-bottom: 25%;
+    text-align: center;
+}
+
+.third {
+    z-index: 0;
+}
+
+.second {
+    position: absolute;
+    padding-bottom: 40%;
+    padding-top: 19.5%;
+    z-index: 99;
+}
+
+.fourth {
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+
+.pf {
+    padding-top: 35%;
+    padding-bottom: 20%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#b1 {
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-image: url("circle.png");
+    background-position: right;
+}
+
+#b2 {
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-image: url("circle.png");
+    background-position: center;
+}
+
+#b3 {
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-image: url("circle.png");
+    background-position: left;
+}
+
+.whole4 {
+    padding-top: 8%;
+    padding-bottom: 10%;
+}
+
+
+/* Three columns side by side */
+
+.column {
+    float: left;
+    margin-bottom: 16px;
+    width: 33.3%;
+    padding: 0 8px;
+    margin-left: 3%;
+}
+
+.row {
+    width: 100%;
+}
+
+
+/* Display the columns below each other instead of side by side on small screens */
+
+@media (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+
+.one {
+    margin-top: 1%;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+
+/*STYLE FOR OUR TEAM GALLERY*/
+
+
+/* Add some shadows to create a card effect */
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 10%;
+    margin-bottom: 15%;
+}
+
+
+/* Some left and right padding inside the container */
+
+.container {
+    padding: 0 6px;
+}
+
+.title {
+    color: grey;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 90%;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+.form1 {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    font-size: 1.5em;
+    margin-left: 10%;
+    border-radius: 10px;
+}
+
+.mainform {
+    margin: 2% 12% 8% 4%;
+}
+
+.form1:focus {
+    border: 3px solid #555;
+}
+
+.submit {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 2% 5% 2% 5%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.submit {
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(5, 5, 5);
+}
+
+.submit:hover {
+    background-color: rgb(94, 94, 94);
+    color: white;
+}
+
+.mf1 {
+    border: 0px solid black;
+    z-index: 99;
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 47%;
+    background-image: url(nav.png);
+    border-radius: 10px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 0px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 10px;
+    border-radius: 50%;
+    align-items: right;
+    float: right;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    font-size: 50%;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.socio {
+    width: 30%;
+    border: 1px solid black;
+    height: 50%;
+}
+
+.cold {
+    position: relative;
+    width: 50%;
+}
+
+.img1 {
+    width: 100%;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    display: block;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+}
+
+.img2 {
+    width: 100%;
+    display: block;
+    opacity: 1;
+    height: 100%;
+    margin-top: 5%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    margin-bottom: 5%;
+    border-radius: 10px;
+}
+
+.cold {
+    position: relative;
+    width: 50%;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+
+.cold:hover .img1 {
+    opacity: 0.3;
+}
+
+.cold:hover .img2 {
+    opacity: 0.3;
+}
+
+.cold:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
